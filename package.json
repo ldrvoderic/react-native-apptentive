@@ -1,7 +1,9 @@
 {
-  "name": "Aptentive",
-  "version": "0.0.1",
+  "name": "react-native-apptentive",
+  "version": "0.1.0",
   "private": true,
+  "files": ["src", "ios"],
+  "main": "src/index.js",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },

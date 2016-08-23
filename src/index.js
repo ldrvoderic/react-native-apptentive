@@ -1,6 +1,6 @@
-// import React, { Component } from 'react';
-import {  NativeModules } from 'react-native';
 
-const { ApptentiveBridge } = NativeModules
+import { NativeModules } from 'react-native';
 
-export default const ApptentiveBridge;
+const { RNApptentive } = NativeModules;
+console.log('RNApptentive', RNApptentive, NativeModules)
+export default RNApptentive;
