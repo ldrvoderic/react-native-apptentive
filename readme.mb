@@ -1,0 +1,38 @@
+# react-native-apptentive
+
+React Native wrapper for [Apptentive](https://www.apptentive.com/).
+
+## Setup
+
+# NPM
+npm install --save react-native-apptentive
+```
+
+Run the following:
+
+```bash
+react-native link react-native-apptentive
+```
+
+Then, add the following to your Podfile:
+
+```ruby
+pod 'apptentive-ios'
+```
+
+Then run:
+
+```bash
+pod install
+```
+
+
+## Usage
+
+```js
+// Import Apptentive.
+import RNApptentive from 'react-native-apptentive';
+
+// Send Custom Tracking Event
+RNApptentive.engage('custom-event-name', () => {});
+
