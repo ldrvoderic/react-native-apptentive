@@ -1,6 +1,6 @@
 buildscript {
     repositories {
-        mavenCentral()
+        jcenter()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.3'
@@ -38,4 +38,3 @@ dependencies {
     compile 'com.facebook.react:react-native:+'
     compile 'com.apptentive:apptentive-android:3.3.0'
 }
-
