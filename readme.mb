@@ -34,5 +34,5 @@ pod install
 import RNApptentive from 'react-native-apptentive';
 
 // Send Custom Tracking Event
-RNApptentive.engage('custom-event-name', () => {});
+RNApptentive.engage('custom-event-name');
 

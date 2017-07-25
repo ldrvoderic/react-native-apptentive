@@ -1,13 +1,4 @@
-buildscript {
-    repositories {
-        jcenter()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.3'
-    }
-}
 apply plugin: 'com.android.library'
-
 
 android {
     compileSdkVersion 23
@@ -19,22 +10,9 @@ android {
         versionCode 1
         versionName "1.0"
     }
-
-    lintOptions {
-        abortOnError false
-    }
-}
-
-repositories {
-    jcenter()
-    maven {
-        // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
-        url "$rootDir/../node_modules/react-native/android"
-    }
 }
 
 dependencies {
-//    compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.facebook.react:react-native:+'
-    compile 'com.apptentive:apptentive-android:3.3.0'
+    compile 'com.apptentive:apptentive-android:3.4.1'
 }
