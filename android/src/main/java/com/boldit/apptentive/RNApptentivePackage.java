@@ -1,4 +1,4 @@
-package com.inkitt.aptentive;
+package com.boldit.apptentive;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
